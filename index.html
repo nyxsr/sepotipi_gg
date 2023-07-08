@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sepotipi</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css"
+      integrity="sha512-WidMaWaNmZqjk3gDE6KBFCoDpBz9stTsTZZTeocfq/eDNkLfpakEd7qR0bPejvy/x0iT0dvzIq4IirnBtVer5A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css"
+      integrity="sha512-yDUXOUWwbHH4ggxueDnC5vJv4tmfySpVdIcN1LksGZi8W8EVZv4uKGrQc0pVf66zS7LDhFJM7Zdeow1sw1/8Jw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="main">
+        <nav>
+          <div class="sidebar__primary_nav">
+            <a href="" class="sidebar__nav_item">
+              <i class="fa-solid fa-house"></i>
+              <span>Home</span>
+            </a>
+            <a href="" class="sidebar__nav_item">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span>Search</span>
+            </a>
+          </div>
+          <div class="sidebar__library_nav">
+            <div class="sidebar__library_head">
+              <div class="sidebar__library_head_text">
+                <img
+                  src="./assets/svg/digital-library.svg"
+                  alt="stacked-for-library"
+                />
+                <p>My Library</p>
+              </div>
+              <div class="sidebar__library_icons">
+                <button>
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <button>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="sidebar__library_types">
+              <span>All</span>
+              <span>BMTH</span>
+              <span>Podcast</span>
+              <span>JKT48</span>
+              <span>Ghost</span>
+            </div>
+            <div class="sidebar__song_items">
+              <div class="sidebar__song_item">
+                <img src="./assets/images/THIS_IS_JKT48_NEW_ERA.jpg" alt="jkt48_new_era">
+                <div class="sidebar__song_detail">
+                  <p>THIS IS JKT48 NEW ERA</p>
+                  <p>Album</p>
+                </div>
+              </div>
+              <div class="sidebar__song_item">
+                <img class="artist" src="./assets/images/d4vd.jpeg" alt="d4vd">
+                <div class="sidebar__song_detail">
+                  <p>d4vd</p>
+                  <p>Artist</p>
+                </div>
+              </div>
+              <div class="sidebar__song_item">
+                <img class="artist" src="./assets/images/tro.jpeg" alt="tro">
+                <div class="sidebar__song_detail">
+                  <p>The Rare Occasions</p>
+                  <p>Artist</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <main></main>
+      </section>
+      <section class="control">
+        <div class="control__song_detail"></div>
+        <div class="control__nav"></div>
+        <div class="control__volume"></div>
+      </section>
+    </main>
+  </body>
 </html>
